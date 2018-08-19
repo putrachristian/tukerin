@@ -24,7 +24,7 @@
 <body>
         <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #3B5998">
             <div class="container">
-                <a class="navbar-brand" href="<?= site_url('home'); ?>" style="font-size: 5rem;">tuker.in</a>
+                <a class="navbar-brand" href="<?= site_url('../'); ?>" style="font-size: 5rem;">tuker.in</a>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <form class="navbar-form navbar-left">
@@ -41,9 +41,10 @@
                     <button type="button" class="btn btn-warning navbar-btn navbar-right">+ Pasang Iklan</button>
                     
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="<?= site_url('admin/register'); ?>">Daftar</a></li>
-                        <li><a href="<?= site_url('admin/login'); ?>">Masuk</a></li>
+                        <li><a href="<?= site_url('masuk/register'); ?>">Daftar</a></li>
+                        <li><a href="<?= site_url('masuk/'); ?>">Masuk</a></li>
                     </ul>
+                    <!-- <ul class="nav navbar-nav navbar-right"><li><a href="">Putra Christian</a></li></ul> -->
                 </div>
             </div>
         </nav>
