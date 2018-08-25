@@ -47,7 +47,7 @@
                                 <a href="#"><img src="<?= base_url('assets/img/icon/hanger.png'); ?>" alt="hanger"></a>
                             </div>
                             <div class="homeTitle text-center">
-                                <a href="#">Keperluan Pribadi</a>
+                                <a href="<?php echo site_url('cari/index')?> ">Keperluan Pribadi</a>
                             </div>
                         </td>
                         <td>
