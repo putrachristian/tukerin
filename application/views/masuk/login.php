@@ -29,7 +29,7 @@
 								  	</div>
 								  	<button type="submit" class="btn btn-primary">Masuk</button>
 								  	<div class="text-foot"><br/>
-								Belum Punya Akun? <a href="<?= site_url('admin/register'); ?>" class="register-link">Register</a>
+								Belum Punya Akun? <a href="<?= site_url('masuk/register'); ?>" class="register-link">Register</a>
 								</div>
 				  				</form>
 					  			
